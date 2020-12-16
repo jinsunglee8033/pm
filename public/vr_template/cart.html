@@ -1,0 +1,1041 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0049)http://demo.softpayplus.com/sub-agent/virtual-rep -->
+<!DOCTYPE html PUBLIC "" ""><!--[if lt IE 7]>
+<html class="no-js ie6 oldie" lang="en"> <![endif]--><!--[if IE 7]>
+<html class="no-js ie7 oldie" lang="en"> <![endif]--><!--[if IE 8]>
+<html class="no-js ie8 oldie" lang="en"> <![endif]--><HTML 
+class="no-js" lang="en"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+     
+<META charset="utf-8">     
+<META http-equiv="X-UA-Compatible" content="IE=edge">     
+<META name="viewport" content="width=device-width, initial-scale=1.0">     
+<META name="description" content="">     
+<META name="keywords" content="">     
+<META name="robots" content="index,follow">     
+<META name="csrf-token" content="k24zCglxAVJHg8KhyOolnYEWEWmwdPntAhpHrFId">     
+<LINK href="ico/favicon3.png" rel="icon">     <TITLE>SoftPayPlus, Inc</TITLE>    
+ <!-- Bootstrap Core CSS -->     <LINK href="/css/bootstrap.min.css" 
+rel="stylesheet">     <!-- RS5.0 Main Stylesheet -->     <LINK href="/css/settings.css" 
+rel="stylesheet" type="text/css">     <!-- RS5.0 Layers and Navigation Styles --> 
+    <LINK href="<strong>css/</strong>layers.css" rel="stylesheet" type="text/css"> 
+    <LINK href="/css/navigation.css" rel="stylesheet" type="text/css"> 
+    <LINK href="/css/style.css" rel="stylesheet">     <!-- Color --> 
+    <LINK id="skin" href="/css/default.css" 
+rel="stylesheet">     <!-- Just for debugging purposes. Don't actually copy these 2 lines! --> 
+    <!--[if lt IE 9]>
+    <script src="/js/ie8-responsive-file-warning.js"></script><![endif]--> 
+    
+<SCRIPT src="/css/ie-emulation-modes-warning.js"></SCRIPT>
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]--> 
+    
+<SCRIPT src="css/Chart.min.js"></SCRIPT>
+     <LINK href="/css/app.css" ref="stylesheet">     <LINK href="/css/bootstrap-datetimepicker.min.css" 
+rel="stylesheet">     <LINK href="/css/yong.css" rel="stylesheet"> 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<body>
+
+
+<!-- Start top -->
+<div class="top-wrapp no-print">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="top-link">
+                    <li><strong>Contact Us:</strong> 703-256-3456 / ops@softpayplus.com</li>
+                    <li>
+                        <a href="#"><div style="display:inline-block; margin-top: 0px; background-color:brown; width:18px; margin-left: 5px; height:18px; margin-right:5px; color:white; text-align:center; line-height: 20px;">S</div> Demo Sub-Agent (100037)</a>
+                    </li>
+                    <!--li><a href="#"><i class="fa fa-user"></i> Welcome demo_sa!</a></li-->
+                    <li>
+                        <a href="/sub-agent/reports/payments"><b>Balance</b>: $0.00</a>
+                    </li>
+                    <li>
+                        <a href="/sub-agent/reports/consignment"><b>Consignment Balance</b>: $20.00</a>
+                    </li>
+                    <li><a href="/logout"><i class="fa fa-clock-o"></i>Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End top -->
+
+<div class="clearfix"></div>
+
+<!-- Start Navigation -->
+<nav class="navbar navbar-default navbar-sticky navbar-default bootsnav no-print">
+
+    <div class="container">
+        <!-- Start Atribute Navigation -->
+        <!--div class="attr-nav">
+            <ul>
+
+                <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+            </ul>
+        </div-->
+        <!-- End Atribute Navigation -->
+
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="/sub-agent/news"><img src="/img/brand/logo-black3.png" class="logo"
+                                                                alt="" height="30"></a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                <li class=""><a href="/sub-agent/news">News</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">Activation</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/sub-agent/activate/verizon">Verizon</a></li>
+                        <!-- <li><a href="/sub-agent/activate/h2o">H2O</a></li> -->
+                        <li><a href="/sub-agent/activate/lyca">Lyca</a></li>
+                        <li><a href="/sub-agent/activate/patriot">Patriot</a></li>
+                        <!--li><a href="/sub-agent/activate/att">AT&T</a></li-->
+                        <!-- <li><a href="/sub-agent/activate/rok">ROK Mobile</a></li> -->
+                        <li><a href="/sub-agent/activate/freeup">FreeUP</a></li>
+                        <!--li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li-->
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/sub-agent/rtr/domestic" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">REFILL</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/sub-agent/rtr/domestic">REFILL - RTR</a></li>
+                        <li><a href="/sub-agent/pin/domestic">REFILL - PIN</a></li>
+                    </ul>
+                </li>
+                <!--li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Phones</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.perfectmobileusa.com/shopmain/" target="_blank">Phone</a></li>
+                        <li><a href="/sub-agent/phones/accessory">Accessory</a></li>
+                    </ul>
+                </li-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Reports</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/sub-agent/reports/transaction">Transaction Report</a></li>
+                        <li><a href="/sub-agent/reports/rtr-q">RTR Queue Report</a></li>
+                        <li><a href="/sub-agent/reports/payments">Payment Report</a></li>
+                        <li><a href="/sub-agent/reports/credit">Credit History</a></li>
+                        <li><a href="/sub-agent/reports/invoices">Invoice Report</a></li>
+                        <li><a href="/sub-agent/reports/spiff">Paid Spiff Report</a></li>
+                        <li><a href="/sub-agent/reports/rebate">Rebate Report</a></li>
+                        <li><a href="/sub-agent/reports/residual">Residual Report</a></li>
+                        <li><a href="/sub-agent/reports/activity">Activity Report</a></li>
+                        <li><a href="/sub-agent/reports/consignment">Consignment Balance Report</a></li>
+                        <li><a href="/sub-agent/reports/vr-request">V.R. Report</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/sub-agent/setting/my-password" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">Setting</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/sub-agent/setting/my-password">My Password</a></li>
+                        <li><a href="/sub-agent/setting/my-account">My Account</a></li>
+                        <li><a href="/sub-agent/setting/users">Users</a></li>
+                        <li><a href="/sub-agent/setting/documents">Documents</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Digital Brochures</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/img/browchures/VZW_PPBRO0617BI_6476_EN_PR.pdf" target="_blank">VZW - PPBRO0617BI
+                                6476 EN PR</a></li>
+                        <li><a href="/img/browchures/VZW_29965_PrepaidCore_SII5_Indirect.pdf" target="_blank">VZW -
+                                29965 PrepaidCore SII5 Indirect</a></li>
+                        <li><a href="/img/browchures/VZW_VERIZON_UNLIMITED.PDF" target="_blank">VZW - VERIZON
+                                UNLIMITED</a></li>
+                        <li><a href="/img/browchures/VZW_Unlimited_POD_spanish.pdf" target="_blank">VZW - Unlimited POD
+                                spanish</a></li>
+                        <li><a href="/img/browchures/VZW_Unlimited_POD_english.pdf" target="_blank">VZW - Unlimited POD
+                                english</a></li>
+                        <li><a href="/img/browchures/VZW_Intl_Calling_0417SP.pdf" target="_blank">VZW - International
+                                Calling 0417SP</a></li>
+                        <li><a href="/img/browchures/VZW_Intl_Calling_0417EN.pdf" target="_blank">VZW - International
+                                Calling 0417EN</a></li>
+                        <li><a href="/img/browchures/VZW_Prepaid_pricing_POD_0217EN.pdf" target="_blank">VZW - Prepaid
+                                pricing POD 0217EN</a></li>
+                        <li><a href="/img/browchures/VZW_Prepaid_brochure_0217.pdf" target="_blank">VZW - Prepaid
+                                brochure 0217</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">TSP</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://epaywebpos.epayworldwide.com/#!/" target="new">ePay</a></li>
+                        <li><a href="http://www.vidapay.com" target="new">VidaPay</a></li>
+                        <li><a href="https://www.qpay123.com/" target="new">Incomm</a></li>
+                        <li><a href="https://instapayportal.com/" target="new">Emida</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- End Navigation -->
+<style type="text/css">
+    .news-headline {
+        -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0);
+        width: 100%;
+        background: #F8F8F8;
+        margin-bottom: 2px;
+        height: 90px;
+    }
+</style>
+
+<div class="news-headline no-print">
+    <marquee behavior="scroll" direction="left" onmouseover="this.stop();"
+             onmouseout="this.start();">Welcome to SoftPayPlus.com.</marquee>
+</div>
+
+
+    <script type="text/javascript">
+                window.onload = function() {
+            paypal.Button.render({
+
+                env: 'sandbox', // sandbox | production
+
+                // PayPal Client IDs - replace with your own
+                // Create a PayPal app: https://developer.paypal.com/developer/applications/create
+                client: {
+                    sandbox: "ARPlPJ9KlcqJcnM3UdLSvfQP6ZjGr3XBXKUUpGnK4jMrqY4eDedjRdLUI9_JyjIlMIqOX7tZ7nQ-OOoX",
+                    production: "AcCYHutE4WPxUSkYIL08sJJeEFFZ9ggozC8FrupXijXCOBFPtTE9UhESlIdBAAMObIXVYGNmKlH76Rzc"
+                },
+
+                // Show the buyer a 'Pay Now' button in the checkout flow
+                commit: true,
+
+                validate: function (actions) {
+                    toggleButton(actions);
+
+                    onChangeStatus(function () {
+                        toggleButton(actions);
+                    });
+                },
+
+                onClick: function () {
+                    if (!isValid()) {
+                        myApp.showError('Please enter valid amount first');
+                    }
+                },
+
+                // payment() is called when the button is clicked
+                payment: function (data, actions) {
+
+                    // Make a call to the REST api to create the payment
+                    return actions.payment.create({
+                        payment: {
+                            transactions: [
+                                {
+                                    amount: {total: $('#vr_amt').val(), currency: 'USD'}
+                                }
+                            ]
+                        },
+                        experience: {
+                            input_fields: {
+                                no_shipping: 1
+                            }
+                        }
+                    });
+                },
+
+                // onAuthorize() is called when the buyer approves the payment
+                onAuthorize: function (data, actions) {
+
+                    /*
+                     intent:"sale"
+                     payerID:"SZ5BE7V7LH97Q"
+                     paymentID:"PAY-73908049SM280515FLHAZR5A"
+                     paymentToken:"EC-8C721893PX7060832"
+                     returnUrl:"http://demo.softpayplus.com/?paymentId=PAY-73908049SM280515FLHAZR5A&token=EC-8C721893PX7060832&PayerID=SZ5BE7V7LH97Q
+                     */
+
+                    // Make a call to the REST api to execute the payment
+                    return actions.payment.execute().then(function () {
+                        //myApp.showSuccess('PayPal payment completed!');
+
+                        // Add this new payment on our DB
+                        myApp.showLoading();
+
+                        $.ajax({
+                            url: '/sub-agent/virtual-rep/cart/paid',
+                            data: {
+                                _token: '8qEeAh3xiRjUcpb9ZumSpnEqmOWTassXGBfkRMzG',
+                                vr_id: $('#vr_id').val(),
+                                amt: $('#vr_amt').val(),
+                                comments: $('#paypal_comments').val(),
+                                order_notes: $('#order_notes').val(),
+                                payer_id: data.payerID,
+                                payment_id: data.payerID,
+                                payment_token: data.paymentToken
+                            },
+                            cache: false,
+                            type: 'post',
+                            dataType: 'json',
+                            success: function (res) {
+
+                                myApp.hideLoading();
+                                if ($.trim(res.msg) === '') {
+                                    $('#div_paypal').modal('hide');
+                                    myApp.showSuccess('PayPal payment completed!');
+
+                                    location.href="/sub-agent/reports/vr-request";
+                                } else {
+                                    myApp.showError(res.msg);
+                                }
+
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                myApp.hideLoading();
+                                myApp.showError(errorThrown);
+                            }
+                        });
+
+                    });
+                },
+
+                onCancel: function (data, actions) {
+                    myApp.showError('You have cancelled PayPal payment!');
+                },
+
+                onError: function (err) {
+                    // Show an error page here, when an error occurs
+                    myApp.showError(err);
+                }
+
+            }, '#paypal-button-container');
+
+        }
+
+        function toggleButton(actions) {
+            return isValid() ? actions.enable() : actions.disable();
+        }
+
+        function isValid() {
+
+            var amt = $('#vr_amt').val();
+
+            if (amt <= 0) {
+                return false;
+            }
+
+            return true;
+        }
+
+        function do_proceed() {
+            var mtd = $('input[name=payment_method]:checked').val();
+
+            if (mtd == 'PayPal') {
+                $('#div_paypal').modal();
+            } else {
+                myApp.showLoading();
+
+                $.ajax({
+                    url: '/sub-agent/virtual-rep/cart/cod',
+                    data: {
+                        order_notes: $('#order_notes').val()
+                    },
+                    cache: false,
+                    type: 'get',
+                    dataType: 'json',
+                    success: function (res) {
+
+                        myApp.hideLoading();
+                        if ($.trim(res.msg) === '') {
+                            location.href="/sub-agent/reports/vr-request";
+                        } else {
+                            myApp.showError(res.msg);
+                        }
+
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        myApp.hideLoading();
+                        myApp.showError(errorThrown);
+                    }
+                });
+
+            }
+        }
+        
+        function add_to_cart(id) {
+
+            var qty = parseInt($('#qty_' + id).val());
+
+            if (qty < 1) {
+                myApp.showError('Please enter at least one');
+                return;
+            }
+
+            $.ajax({
+                url: '/sub-agent/virtual-rep/add_to_cart',
+                data: {
+                    id: id,
+                    qty: qty
+                },
+                cache: false,
+                type: 'get',
+                dataType: 'json',
+                success: function(res) {
+                    myApp.hideLoading();
+                    if ($.trim(res.msg) === '') {
+                        // myApp.showSuccess('Your request has been successfully submitted!');
+                        location.href = "/sub-agent/virtual-rep/cart";
+                    } else {
+                        myApp.showError(res.msg);
+                    }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    myApp.hideLoading();
+                    myApp.showError(errorThrown);
+                }
+            });
+        }
+
+    </script>
+
+    <!-- Start parallax -->
+    <div class="parallax" data-background="/img/parallax/innerpage.jpg" data-speed="0.5" data-size="50%">
+        
+        <div class="overlay white"></div>
+        <div class="container">
+            <div class="inner-head">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h4>Shop</h4>
+                        <ol class="breadcrumb">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/sub-agent/virtual-rep">Shop</a></li>
+                            <li class="active">Pending Order</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End parallax -->
+
+    <!-- Start contain wrapp -->
+    <div class="contain-wrapp"> 
+        <div class="container">
+            <div class="row">
+                                <!-- Start shopping cart -->
+                <div class="col-md-12">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th class="text-left"></th>
+                                <th class="text-left"> </th>
+                                <th class="text-left">Category </th>        
+                                <th class="text-left">SubCategory </th>                             
+                                <th class="text-left">Month.Service</th>
+                                <th class="text-left">Plan </th>
+                                <th class="text-left">Make </th>
+                                <th class="text-left">Type </th>
+                                <th class="text-left">Grade  </th>
+                                <th class="text-left">Price</th>
+                                <th class="text-left">Qty</th>
+                                <th class="text-left">Remove</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                                                                                        <tr>
+                                <td data-title="No">1</td>
+                                <td data-title="Product">
+                                    <a href="#" class="alignleft">
+                                    <img src="https://www.softpayplus.com/img/vr/Samsung%20I510%20Droid%20Charger%20(Rok-CDMA).jpg" alt="" style="max-width: 78px">
+                                    </a>
+                                </td>
+                                   <td data-title="">
+                                    <h6 class="item-title"><a href="#">Samsung I510 Driod Charger (Verizon) (Rok-CDMA)</a>
+                                    <br>ROK
+                                    </h6>
+                                </td>
+                                
+                                <td data-title="">DEVICE</td>
+                                <td data-title="">HANDSET</td>
+                                <td data-title=""> </td>
+                                <td data-title=""></td>
+                                <td data-title="">SAMSUNG</td>
+                                <td data-title="">4G</td>
+                                <td data-title="">REFUR</td>
+                                
+                                <td data-title="Price">$35.00</td>
+                                <td data-title=""><input type="number" id="qty_78" onchange="add_to_cart(78)" class="form-control2" value="2" style="width:48px;"></td>
+                                <td data-title="Remove"><a href="/sub-agent/virtual-rep/cart/remove/72" class="remove"><i class="fa fa-remove"></i></a></td>
+                            </tr> 
+                                                        <tr>
+                                <td data-title="No">2</td>
+                                <td data-title="Product">
+
+                                </td>
+                                   <td data-title="">
+                                    <h6 class="item-title"><a href="#">Samsung I510 Driod Charger (Verizon) (Rok-CDMA)</a>
+                                    <br>ROK
+                                    </h6>
+                                </td>
+                                <td data-title="">DEVICE</td>
+                                <td data-title="">HANDSET</td>
+                                <td data-title=""> </td>
+                                <td data-title=""></td>
+                                <td data-title="">HTC</td>
+                                <td data-title="">4G</td>
+                                <td data-title="">REFUR</td>
+                                
+                                <td data-title="Price">$45.00</td>
+                                <td data-title=""><input type="number" id="qty_77" onchange="add_to_cart(77)" class="form-control2" value="1" style="width:48px;"></td>
+                                <td data-title="Remove"><a href="/sub-agent/virtual-rep/cart/remove/73" class="remove"><i class="fa fa-remove"></i></a></td>
+                            </tr> 
+                               
+                        </tbody>                            
+                    </table>
+
+                    <div class="shoppingcart-action">
+                      <p class="grand-total"><label>Price :</label> <span class="primary">$115.00</span></p>
+                    </div>
+                    <div class="divider2"></div>
+                    <div class="shoppingcart-action">
+                      <p class="grand-total"><label>Shipping :</label> <span class="primary">$0</span></p>
+                    </div>
+                    <div class="divider2"></div>
+                    <div class="shoppingcart-action">
+                      <p class="grand-total"><label>Grand total :</label> <span class="primary">$115</span></p>
+                    </div>
+
+                </div>
+
+                <div class="divider3"></div>
+
+                <div class="col-md-12"> 
+                    <div class="row margin-top10">
+                        <div class="col-sm-12 margin-bot10">
+                            <textarea class="form-control" rows="4" id="order_notes" placeholder="Order note"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider2"></div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12">   
+                <h5>Payment Method</h5>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">   
+
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="checkbox col-sm-12">
+                                <label>
+                                    <input type="radio" name="payment_method" name="payment_method" value="PayPal" checked> Paypal
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox col-sm-12">
+                                <label>
+                                    <input type="radio" name="payment_method" value="COD"> COD
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>              
+
+                <div class="col-md-3 col-sm-3 col-xs-12" style="float: right">  
+                    <a type="submit" class="btn btn-primary btn-block" onclick="do_proceed()" >Proceed to checkout</a>
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+
+        <div class="modal fade" id="div_paypal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">x</span></button>
+                    <h4 class="modal-title" id="title">Pay with PayPal</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <input type="hidden" id="vr_id" value="55"/>
+                        <div class="form-group">
+                            <label class="control-label col-md-4">Amount($)</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" id="vr_amt" value="115.00" disabled/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-4">Comments</label>
+                            <div class="col-md-8">
+                                <textarea type="text" class="form-control" id="paypal_comments" rows="3" style="width:100%;"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer" style="margin-right:15px;">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <div id="paypal-button-container" class="btn float-right"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <!-- End contain wrapp -->
+
+
+
+<div class="vrmenu">
+<ul>
+ <li><A href="#"><img width="70" height="70" src="/img/vrpeople.png"></A>
+   <ul>
+     <li><a href="/sub-agent/virtual-rep">Virtual Order </a></li>
+     <li><a href="/sub-agent/virtual-rep/general_request">General Request</a></li>
+     <li><a href="/sub-agent/reports/vr-request">Virtual Rep. Report</a></li>
+    </ul>
+ </li>
+</ul>
+</div>
+
+<!-- Start footer -->
+<footer class="no-print">
+    <div class="subfooter">
+        <p>2017 &copy; Copyright <a href="#">SoftPayPlus.</a> All rights Reserved.</p>
+    </div>
+</footer>
+<!-- End footer -->
+
+<!-- Start to top -->
+<a href="#" class="toTop">
+    <i class="fa fa-chevron-up"></i>
+</a>
+<!-- End to top -->
+
+<div style="display:none;" id="app"></div>
+
+<!-- Start modal -->
+<div class="modal fade" id="virtual_rep_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Virtual Representative</h4>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="vr_category"/>
+
+                <!-- Start Accordion -->
+                <div class="panel-group" id="accordion1">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="heading1">
+                            <h6 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" onclick="$('#vr_category').val('M')" data-parent="#accordion1" href="#panel1">
+                                    I REQUIRE MORE MARKETING MATERIALS
+                                </a>
+                            </h6>
+                        </div>
+
+                        <div id="panel1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><span class="highlight default2">POSTERS</span>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="vr_poster_vz"> VERIZON WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_poster_h2o"> H2O WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_poster_lyca"> LYCA MOBILE </label>
+                                    <label><input type="checkbox" id="vr_poster_patriot"> PATRIOT MOBILE </label>
+                                </div>
+
+                                </p>
+                                <p><span class="highlight default2">BROCHURES</span>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="vr_brochure_vz"> VERIZON WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_brochure_h2o"> H2O WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_brochure_lyca"> LYCA MOBILE </label>
+                                    <label><input type="checkbox" id="vr_brochure_patriot"> PATRIOT MOBILE </label>
+                                </div>
+                                </p>
+                                <p><span class="highlight default2">OTHER</span>
+                                    <textarea class="form-control" rows="3" id="vr_material_other" placeholder="Please enter your query"
+                                              style="margin-top: 20px"></textarea>
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="heading2">
+                            <h6 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" onclick="$('#vr_category').val('E')" data-parent="#accordion1" href="#panel2">
+                                    EQUIPMENT ORDERING
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="panel2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><span class="highlight default2">SIM CARDS</span>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="vr_sim_vz"> VERIZON WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_sim_h2o"> H2O WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_sim_lyca"> LYCA MOBILE </label>
+                                    <label><input type="checkbox" id="vr_sim_patriot"> PATRIOT MOBILE </label>
+                                </div>
+
+                                </p>
+                                <p><span class="highlight default2">HANDSETS</span>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" id="vr_handset_vz"> VERIZON WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_handset_h2o"> H2O WIRELESS &nbsp; &nbsp; </label>
+                                    <label><input type="checkbox" id="vr_handset_lyca"> LYCA MOBILE </label>
+                                    <label><input type="checkbox" id="vr_handset_patriot"> PATRIOT MOBILE </label>
+                                </div>
+                                </p>
+                                <p><span class="highlight default2">OTHER</span>
+                                    <textarea class="form-control" rows="3" id="vr_equipment_other" placeholder="Please enter your query"
+                                              style="margin-top: 20px"></textarea>
+                                    <strong>*Pricing Information for Call or E-mail</strong>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="heading3">
+                            <h6 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" onclick="$('#vr_category').val('T')" data-parent="#accordion1" href="#panel3">
+                                    TECHNICAL ISSUES
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="panel3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><strong>VERIZON WIRELESS</strong>
+                                    <textarea class="form-control" rows="3" id="vr_tech_vz" placeholder="Please enter your query"></textarea>
+                                </p>
+                                <p><strong>H2O WIRELESS</strong>
+                                    <textarea class="form-control" rows="3" id="vr_tech_h2o" placeholder="Please enter your query"></textarea>
+                                </p>
+                                <p><strong>LYCA MOBILE</strong>
+                                    <textarea class="form-control" rows="3" id="vr_tech_lyca" placeholder="Please enter your query"></textarea>
+                                </p>
+                                <p><strong>PATRIOT MOBILE</strong>
+                                    <textarea class="form-control" rows="3" id="vr_tech_patriot" placeholder="Please enter your query"></textarea>
+                                </p>
+                                <p><strong>PORTAL RELATED</strong>
+                                    <textarea class="form-control" rows="3" id="vr_tech_portal" placeholder="Please enter your query"></textarea>
+                                </p>
+                                <p><strong>OTHERS</strong>
+                                    <textarea class="form-control" rows="3" id="vr_tech_other" placeholder="Please enter your query"></textarea>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="heading4">
+                            <h6 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" onclick="$('#vr_category').val('C')" data-parent="#accordion1" href="#panel4">
+                                    COMMENTS
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="panel4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <textarea class="form-control" rows="3" id="vr_comments" placeholder="Please leave your opinion"></textarea>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Accordion -->
+
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary btn-sm" type="submit" data-dismiss="modal">Close</button>
+                <button class="btn btn-default btn-sm" type="button" onclick="save_vr()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End modal -->
+
+<div class="modal" tabindex="-1" role="dialog" id="loading-modal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Please Wait...</h4>
+            </div>
+            <div class="modal-body">
+                <div class="progress" style="margin-top:20px;">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <span class="sr-only">Please wait.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="error-modal">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="error-modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body" id="error-modal-body">
+            </div>
+            <div class="modal-footer" id="error-modal-footer">
+                <button type="button" id="error-modal-ok" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="confirm-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="confirm-modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body" id="confirm-modal-body">
+
+            </div>
+            <div class="modal-footer" id="confirm-modal-footer">
+                <button type="button" id="confirm-modal-cancel" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" id="confirm-modal-ok" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script>
+    window.Laravel = {"csrfToken":"8qEeAh3xiRjUcpb9ZumSpnEqmOWTassXGBfkRMzG"};
+    var account_id = "100037";
+
+    var env = "local";
+</script>
+
+<script src="/js/app.js"></script>
+
+<!-- START JAVASCRIPT -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.easing-1.3.min.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+<script src="/js/loading.js"></script>
+<!--script src="https://use.fontawesome.com/0f855c73a0.js"></script-->
+
+<script src="/bower_components/moment/moment.js"></script>
+<script src="/bower_components/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js"></script>
+<script src="/js/bootstrap-notify.min.js"></script>
+<script type="text/javascript">
+
+    function realtime_notify(e) {
+        window.$.notify({
+            //icon: 'glyphicon glyphicon-warning-sign',
+            title: 'Transaction Status Update!',
+            message: e.message
+        }, {
+            type: e.transaction.status == 'C' ? 'success' : 'warning',
+            delay: 0,
+            animate: {
+                enter: 'animated fadeInRight',
+                exit: 'animated fadeOutRight'
+            },
+            template: '<div class="alert alert-{0}" role="alert" data-out="bounceOut">' +
+            '<span class="close-alert" data-dismiss="alert"><i class="fa fa-times-circle"></i></span>' +
+            '<i class="fa fa-{0}"></i>' +
+            '<h6 class="title">{1}</h6>' +
+            '<p>{2}</p>' +
+            '</div>'
+        });
+    }
+</script>
+
+
+<!-- Bootsnavs -->
+<script src="/js/bootsnav.js"></script>
+
+<!-- Custom form -->
+<script src="/js/form/jcf.js"></script>
+<!--script src="/js/form/jcf.scrollable.js"></script>
+<script src="/js/form/jcf.select.js"></script-->
+
+<!-- Custom checkbox and radio -->
+<script src="/js/checkator/fm.checkator.jquery.js"></script>
+<script src="/js/checkator/setting.js"></script>
+
+<!-- REVOLUTION JS FILES -->
+<script type="text/javascript" src="/js/revolution/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="/js/revolution/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+(Load Extensions only on Local File Systems !
+The following part can be removed on Server for On Demand Loading) -->
+<script type="text/javascript" src="/js/revolution/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="/js/revolution/revolution.extension.video.min.js"></script>
+
+<!-- CUSTOM REVOLUTION JS FILES -->
+<script type="text/javascript" src="/js/revolution/setting/clean-revolution-slider.js"></script>
+
+<!-- masonry -->
+<script src="/js/masonry/masonry.min.js"></script>
+<script src="/js/masonry/masonry.filter.js"></script>
+<script src="/js/masonry/setting.js"></script>
+
+<!-- PrettyPhoto -->
+<script src="/js/prettyPhoto/jquery.prettyPhoto.js"></script>
+<script src="/js/prettyPhoto/setting.js"></script>
+
+<!-- flexslider -->
+<script src="/js/flexslider/jquery.flexslider-min.js"></script>
+<script src="/js/flexslider/setting.js"></script>
+
+<!-- Parallax -->
+<script src="/js/parallax/jquery.parallax-1.1.3.js"></script>
+<script src="/js/parallax/setting.js"></script>
+
+<!-- owl carousel -->
+<script src="/js/owlcarousel/owl.carousel.min.js"></script>
+<script src="/js/owlcarousel/setting.js"></script>
+
+<!-- Twitter -->
+<script src="/js/twitter/tweetie.min.js"></script>
+<script src="/js/twitter/ticker.js"></script>
+<script src="/js/twitter/setting.js"></script>
+
+<!-- Custom -->
+<script src="/js/custom.js"></script>
+
+<script src="/js/loading.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/jquery.rememberscroll.js"></script>
+
+<!-- Theme option-->
+<script src="/js/template-option/demosetting.js"></script>
+
+<!-- PayPal -->
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.scrollTrack();
+    });
+
+    function open_vr() {
+        $('#virtual_rep_modal').find('checkbox').attr('checked', false);
+        $('#virtual_rep_modal').find('input').val('');
+        $('#virtual_rep_modal').find('textarea').val('');
+
+        $('.panel-collapse.in').collapse('hide');
+        $('#panel1').collapse('show');
+        $('#vr_category').val('M');
+
+        $('#virtual_rep_modal').modal('show');
+    }
+
+    function save_vr() {
+        myApp.showLoading();
+        $.ajax({
+            url: '/sub-agent/virtual-rep/log-request',
+            data: {
+                _token: '8qEeAh3xiRjUcpb9ZumSpnEqmOWTassXGBfkRMzG',
+                category: $('#vr_category').val(),
+
+                poster_vz: $('#vr_poster_vz').is(':checked') ? 'Y' : 'N',
+                poster_h2o: $('#vr_poster_h2o').is(':checked') ? 'Y' : 'N',
+                poster_lyca: $('#vr_poster_lyca').is(':checked') ? 'Y' : 'N',
+                poster_patriot: $('#vr_poster_patriot').is(':checked') ? 'Y' : 'N',
+                brochure_vz: $('#vr_brochure_vz').is(':checked') ? 'Y' : 'N',
+                brochure_h2o: $('#vr_brochure_h2o').is(':checked') ? 'Y' : 'N',
+                brochure_lyca: $('#vr_brochure_lyca').is(':checked') ? 'Y' : 'N',
+                brochure_patriot: $('#vr_brochure_patriot').is(':checked') ? 'Y' : 'N',
+                material_other: $('#vr_material_other').val(),
+
+                sim_vz: $('#vr_sim_vz').is(':checked') ? 'Y' : 'N',
+                sim_h2o: $('#vr_sim_h2o').is(':checked') ? 'Y' : 'N',
+                sim_lyca: $('#vr_sim_lyca').is(':checked') ? 'Y' : 'N',
+                sim_patriot: $('#vr_sim_patriot').is(':checked') ? 'Y' : 'N',
+                handset_vz: $('#vr_handset_vz').is(':checked') ? 'Y' : 'N',
+                handset_h2o: $('#vr_handset_h2o').is(':checked') ? 'Y' : 'N',
+                handset_lyca: $('#vr_handset_lyca').is(':checked') ? 'Y' : 'N',
+                handset_patriot: $('#vr_handset_patriot').is(':checked') ? 'Y' : 'N',
+                equipment_other: $('#vr_equipment_other').val(),
+
+                tech_vz: $('#vr_tech_vz').val(),
+                tech_h2o: $('#vr_tech_h2o').val(),
+                tech_lyca: $('#vr_tech_lyca').val(),
+                tech_patriot: $('#vr_tech_patriot').val(),
+                tech_portal: $('#vr_tech_portal').val(),
+                tech_other: $('#vr_tech_other').val(),
+
+                comments: $('#vr_comments').val()
+            },
+            cache: false,
+            type: 'post',
+            dataType: 'json',
+            success: function(res) {
+                myApp.hideLoading();
+                if ($.trim(res.msg) === '') {
+                    $('#virtual_rep_modal').modal('hide');
+                    myApp.showSuccess('Your request has been successfully submitted!');
+
+                    $('#virtual_rep_modal').find('checkbox').attr('checked', false);
+                    $('#virtual_rep_modal').find('input').val('');
+                    $('#virtual_rep_modal').find('textarea').val('');
+
+                } else {
+                    myApp.showError(res.msg);
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                myApp.hideLoading();
+                myApp.showError(errorThrown);
+            }
+        });
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+SKU,Carrier,SubCarrier,Category,SubCategory,ServiceMonth,Plan,Make,Type,Model,Marketing,Promotion,Url,Desc,Grade,Stock,Supplier,Memo,MasterCommission,DistributorCommission,MasterPrice,DistributorPrice,SubAgentPrice,Rebate,Status,IsExternal,ForConsignment,Sorting
+HTC_Desire_Verizon_Rok_CDMA,ROK,CDMA,DEVICE,HANDSET,,,HTC,4G,HTC Desire (Verizon) (Rok-CDMA),HTC Marketing,Promotion,,Kitted,Refur,100,ROK,Blister Package,5,5,35,40,45,0,A,N,N,1
+Samsung_I510_Driod_Charger_Verizon_Rok_CDMA,ROK,CDMA,DEVICE,HANDSET,,,SAMSUNG,4G,Samsung I510 Driod Charger (Verizon) (Rok-CDMA),SAM Marketing,Clearance,https://www.softpayplus.com/img/vr/Samsung%20I510%20Droid%20Charger%20(Rok-CDMA).jpg,Kitted,Refur,100,ROK,Blister Package,5,5,35,40,45,0,A,,,3
+LG_VS920_Verizon_Rok_CDMA,ROK,CDMA,DEVICE,HANDSET,,,LG,4G,LG VS920 (Verizon) (Rok-CDMA),LG Marketing,,https://www.softpayplus.com/img/vr/LG%20VS920%20Spectrum%20(Rok-CDMA).jpg,Kitted,Refur,100,ROK,Blister Package,5,5,35,40,45,0,A,Y,Y,2
