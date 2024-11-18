@@ -14,14 +14,14 @@ use App\Model\LbtActivation;
 class liberty
 {
     private static $api_url = 'https://www.libertymobileinc.com/libertyservices/api/';
-    private static $uid = 'PerfectMobile';
-    private static $pwd = 'PerfectMobile@123!';
+    private static $uid = '';
+    private static $pwd = '';
 
     private static function init() {
         if (getenv('APP_ENV') == 'production') {
             self::$api_url = 'https:///www.libertymobileinc.com/libertyservices/api/';
-            self::$uid = 'PerfectMobile';
-            self::$pwd = 'PerfectMobile@123!';
+            self::$uid = '';
+            self::$pwd = '';
         }
     }
 

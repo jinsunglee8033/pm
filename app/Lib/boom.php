@@ -13,8 +13,8 @@ use Carbon\Carbon;
 class boom
 {
     private static $api_url = 'https://api-prod.boom.us/BOOMWebAPI/BOOMWebService.svc/api';
-    private static $uid = 'PMI111111';
-    private static $pwd = 'fPTt6Xt~Mz;BMbh';
+    private static $uid = '';
+    private static $pwd = '';
 
     public static function deviceInquery($esn)
     {

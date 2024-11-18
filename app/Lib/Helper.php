@@ -1466,7 +1466,7 @@ class Helper
 
         $name = urlencode($address);
 
-        $url = "https://maps.googleapis.com/maps/api/geocode/json?address=$name&key=AIzaSyB7VSJl8gpGBqhHyBn53lGqDhSshrq50AY";
+        $url = "https://maps.googleapis.com/maps/api/geocode/json?address=$name&key=";
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);

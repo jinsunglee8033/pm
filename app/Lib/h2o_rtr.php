@@ -17,8 +17,8 @@ class h2o_rtr
 {
     //private static $api_url = 'http://trial.h2odirectnow.com/retailer/H2OServicesDemo.wsdl';
     private static $api_url = 'http://trial.h2odirectnow.com/retailer/H2OServices.php';
-    private static $user = 'pefect_api_demo';
-    private static $pwd = 'perFEct051';
+    private static $user = '';
+    private static $pwd = '';
     private static $call_api_on_demo = false;
 
     private static function init() {
@@ -26,8 +26,8 @@ class h2o_rtr
         if (getenv('APP_ENV') == 'production') {
             //self::$api_url = 'https://www.h2odirectnow.com/retailer/H2OServices.wsdl';
             self::$api_url = 'https://www.h2odirectnow.com/retailer/H2OServices.php';
-            self::$user = 'perfectapi';
-            self::$pwd = 'Perfectapi123';
+            self::$user = '';
+            self::$pwd = '';
         }
     }
 

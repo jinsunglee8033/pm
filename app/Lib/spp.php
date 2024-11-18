@@ -14,13 +14,13 @@ use App\Model\Denom;
 class spp
 {
     private static $api_url = 'https://www.vcareapi.com/vcareOssApi/';
-    private static $VENDORID = 'Demo-genmobile';
-    private static $USERNAME = 'Demo-genmobileUser';
-    private static $PASSWORD = 'Demo-genwtKhyutrwnY6';
-    private static $PIN = 'Demo-99110256358';
-    private static $AGENTID = 'sandboxperfectmob';
-    private static $AGENTPASSWORD = '8954sg$#@fgdfM%D';
-    private static $COMPANYID = '42';
+    private static $VENDORID = '-';
+    private static $USERNAME = '-';
+    private static $PASSWORD = '';
+    private static $PIN = '-';
+    private static $AGENTID = '';
+    private static $AGENTPASSWORD = '';
+    private static $COMPANYID = '';
 
 
     public static function ValidateBYOD($device_id) {

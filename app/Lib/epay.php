@@ -15,16 +15,16 @@ class epay
 {
 
     private static $api_url = 'https://et-up.epayworldwide.com/up';
-    private static $uid = 'PeRM0bi*!Te$t';
-    private static $pwd = '82%p6XeKR';
-    private static $tid = '80591246';
+    private static $uid = '';
+    private static $pwd = '';
+    private static $tid = '';
 
     private static function init() {
         if (getenv('APP_ENV') === 'production') {
             self::$api_url = 'https://up.epayworldwide.com/up';
-            self::$uid = 'PeRM0bi*!)PROd';
-            self::$pwd = 'l?;kjz%M28';
-            self::$tid = '80591246';
+            self::$uid = '';
+            self::$pwd = '';
+            self::$tid = '';
         }
     }
 

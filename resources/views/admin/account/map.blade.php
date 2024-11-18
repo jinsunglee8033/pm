@@ -323,7 +323,7 @@
 
     <!-- Map Result -->
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7VSJl8gpGBqhHyBn53lGqDhSshrq50AY&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
     </script>
 
 @stop

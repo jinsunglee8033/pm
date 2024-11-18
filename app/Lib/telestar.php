@@ -12,14 +12,14 @@ namespace App\Lib;
 class telestar
 {
     private static $api_url = 'http://demo.geth2owireless.com/api';
-    private static $api_user = 'pm_api';
-    private static $api_pwd = 'aaaa1234';
+    private static $api_user = '';
+    private static $api_pwd = '';
 
     private static function init() {
         if (getenv('APP_ENV') == 'production') {
             self::$api_url = 'https://www.geth2owireless.com/api';
-            self::$api_user = 'pm_api';
-            self::$api_pwd = 'Jyk5183!!';
+            self::$api_user = '';
+            self::$api_pwd = '';
         }
     }
 

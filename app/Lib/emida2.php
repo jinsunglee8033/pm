@@ -12,18 +12,18 @@ namespace App\Lib;
 class emida2
 {                             
     private static $api_url = 'https://wsprd.emida.net/services/rpcrouter?wsdl';
-    private static $uid = 'demopmobile';
-    private static $pwd = '9493407918';
-    private static $tid = '8593003';
-    private static $clerk_id = '1234';
+    private static $uid = '';
+    private static $pwd = '';
+    private static $tid = '';
+    private static $clerk_id = '';
 
     private static function init() {
         if (getenv('APP_ENV') == 'production') {
             self::$api_url = 'https://wsprd.emida.net/services/rpcrouter?wsdl';
-            self::$uid = 'TomPerfect';
-            self::$pwd = '0SvqYgLFqG';
-            self::$tid = '2780869';
-            self::$clerk_id = '4119';
+            self::$uid = '';
+            self::$pwd = '';
+            self::$tid = '';
+            self::$clerk_id = '';
         }
     }
 

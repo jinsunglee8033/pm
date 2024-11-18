@@ -13,16 +13,16 @@ class gss
 {
 
     private static $api_url = 'h1.gotprepaidpins.com';
-    private static $api_port = '714';
-    private static $api_user = 'MobilePM4';
-    private static $api_pwd = 'PerE4119';
+    private static $api_port = '';
+    private static $api_user = '';
+    private static $api_pwd = '';
 
     private static function init() {
         if (getenv('APP_ENV') == 'production') {
-            self::$api_url = 'h1.gotprepaidpins.com';
-            self::$api_port = '713';
-            self::$api_user = 'MobilePM4';
-            self::$api_pwd = 'PerE4119';
+            self::$api_url = '';
+            self::$api_port = '';
+            self::$api_user = '';
+            self::$api_pwd = '';
         }
     }
 

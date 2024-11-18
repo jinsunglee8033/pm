@@ -16,24 +16,24 @@ use App\Model\Transaction;
 class gen
 {
     private static $api_url = 'https://www.vcareapi.com/vcareOssApi/';
-    private static $VENDORID = 'Demo-genmobile';
-    private static $USERNAME = 'Demo-genmobileUser';
-    private static $PASSWORD = 'Demo-genwtKhyutrwnY6';
-    private static $PIN = 'Demo-99110256358';
-    private static $AGENTID = 'sandboxperfectmob';
-    private static $AGENTPASSWORD = '8954sg$#@fgdfM%D';
+    private static $VENDORID = '';
+    private static $USERNAME = '';
+    private static $PASSWORD = '';
+    private static $PIN = '';
+    private static $AGENTID = '';
+    private static $AGENTPASSWORD = '';
     private static $COMPANYID = '42';
 
     private static function init() {
         if (getenv('APP_ENV') == 'production') {
             self::$api_url = 'https://www.vcareapi.com/vcareOssApi/';
-            self::$VENDORID = 'genmobile';
-            self::$USERNAME = 'genmobileUser';
-            self::$PASSWORD = 'genwtKhyutrwnY6';
-            self::$PIN = '99110256358';
-            self::$AGENTID = 'PERFECT_EMPLOYEE';
-            self::$AGENTPASSWORD = 'P%fect1on1722';
-            self::$COMPANYID = '42';
+            self::$VENDORID = '';
+            self::$USERNAME = '';
+            self::$PASSWORD = '';
+            self::$PIN = '';
+            self::$AGENTID = '';
+            self::$AGENTPASSWORD = '';
+            self::$COMPANYID = '';
         }
     }
 

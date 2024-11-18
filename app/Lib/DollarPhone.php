@@ -12,8 +12,8 @@ namespace App\Lib;
 class DollarPhone
 {
     private static $api_url = 'https://www.dollarphone.com/pmapi/PinManager.asmx?WSDL';
-    private static $uid = 'yno@7pSYS';
-    private static $pwd = 'avlp$73API';
+    private static $uid = '';
+    private static $pwd = '';
 
 
     private static function init() {

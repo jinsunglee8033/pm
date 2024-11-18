@@ -15,20 +15,20 @@ class reup
 {
 
     private static $api_url = 'https://api.sandbox.reupmobile.com';
-    private static $api_user = 'pmobile-user-api';
-    private static $api_pwd = 'RrHumF%mo%8@0CG';
-    private static $dealer_id = '40839';
-    private static $dba = 'Perfect Mobile';
-    private static $company_name = 'Perfect Mobile';
-    private static $contact_name = 'Tom Jeyoon';
-    private static $phone = '3013663173';
-    private static $email = 'tom@perfectmobileinc.com';
+    private static $api_user = '';
+    private static $api_pwd = '';
+    private static $dealer_id = '';
+    private static $dba = '';
+    private static $company_name = '';
+    private static $contact_name = '';
+    private static $phone = '';
+    private static $email = '';
 
     private static function init() {
         // if (getenv('APP_ENV') == 'production') {
             self::$api_url = 'https://api.reupmobile.com';
-            self::$api_user = 'pmobile-user-api';
-            self::$api_pwd = '1DIj@5cJLGoO3r';
+            self::$api_user = '';
+            self::$api_pwd = '';
         // }
     }
 

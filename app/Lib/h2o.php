@@ -16,11 +16,11 @@ use App\Model\DealerCode;
 class h2o
 {
     public static $api_url = 'https://www.locusapi.com/pcs/af/dev.php';
-    private static $dealer_code = '18550';
-    private static $dealer_pwd = '4119';
-    private static $user = 'perfectAPI';
-    private static $password = '$3t4L0cu$@P1';
-    private static $key = '729EA103173B7E45DBC';
+    private static $dealer_code = '';
+    private static $dealer_pwd = '';
+    private static $user = '';
+    private static $password = '';
+    private static $key = '';
     private static $call_api_on_demo = false;
 
     public static function init() {
@@ -29,7 +29,7 @@ class h2o
 
         if (getenv('APP_ENV') == 'production' || self::$call_api_on_demo) {
             self::$api_url = 'https://www.locusapi.com/pcs/af/';
-            self::$key = '72AEB68A5BA6E317672';
+            self::$key = '';
         }
     }
 

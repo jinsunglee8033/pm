@@ -16,9 +16,9 @@ use App\Model\Account;
 class echoSig
 {
 
-    private static $key = '3AAABLblqZhB9BkPYgG05SujXVeDBMJTi3pFod1U2OK0tVir3Qn3YDeva_jTUAkBp9hKyz5yKZaGzST9Nbgzk8cDWg9i2GE3M';
-    //private static $user = 'tom@perfectmobileinc.com';
-    //private static $pwd = 'pmJJ2017';
+    private static $key = '';
+    //private static $user = '';
+    //private static $pwd = '';
     private static $url = 'https://api.na2.echosign.com:443/api/rest/v5'; # 52.35.253.83
     //private static $url = 'http://demo.softpayplus.com/';
     private static $return_url = '/esig/completed';
